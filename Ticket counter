@@ -23,7 +23,7 @@ while (x == 1):
 		print 'exiting..'
 		print 'end of program!'
 		
-	else: 
+	else: #if anything else was entered
 		print "wrong input, press i or d: "
 		 
 
