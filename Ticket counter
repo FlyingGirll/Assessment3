@@ -1,0 +1,31 @@
+from datetime import datetime
+
+count = 0
+x = 1
+while (x == 1):
+	
+	myInput = raw_input(" - - press i or d: ")
+	print
+#if i is selected then add 1
+	if (myInput == 'i'):
+		count = count+1
+		print 'count: ' + str(count)
+    
+#if d is selected then subtract 1
+
+	elif (myInput == 'd'):
+		count = count-1
+		print count
+		
+	elif (myInput == 'exit'):
+		x = 0
+		print count
+		print 'exiting..'
+		print 'end of program!'
+		
+	else: 
+		print "wrong input, press i or d: "
+		 
+
+	print str(datetime.now())
+	print
