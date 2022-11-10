@@ -6,8 +6,8 @@ for i in range(user_input):
         print('* ', end="")
     print('')
  
-for i in range(user_input, 0, -1):
-    for j in range(i):
+for i in range(user_input, 0, -1): #if users answer is between 0 and -1
+    for j in range(i): 
         print('* ', end="")
     print('')
     
@@ -15,5 +15,5 @@ for i in range(user_input, 0, -1):
     user_input = int(input("Please enter the number of times "
                        "that you wish to see the message."))
  
-for i in range(user_input):
+for i in range(user_input): #will only print the amount of times of user input
     print("hello world....", i)
