@@ -1,0 +1,11 @@
+devBio = {
+  "name": "Ihechikara",
+  "age": 120,
+  "language": "JavaScript"
+}
+
+devBio.update({"role": "Developer"}) #use .update() to add to dictionary
+
+print(devBio)
+
+# {'name': 'Ihechikara', 'age': 120, 'language': 'JavaScript', 'role': 'Developer'}
