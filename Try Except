@@ -1,5 +1,5 @@
 try:
-  print(x)
+  print(x) #x is not defined so error will print
 except NameError:
   print("Variable x is not defined")
 except:
@@ -7,7 +7,7 @@ except:
   
   #example2
   
-  try:
+  try: #will print and state nothing went wrong
   print("Hello")
 except:
   print("Something went wrong")
@@ -16,9 +16,9 @@ else:
   
   #example3
   
-  try:
+  try: #x is not defined so wont print
   print(x)
 except:
   print("Something went wrong")
 finally:
-  print("The 'try except' is finished") 
+  print("The 'try except' is finished") #will print regardless to show end of program
