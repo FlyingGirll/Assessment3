@@ -1,0 +1,17 @@
+def the_list():
+
+    data = ['data1', 'data2', 'data3 ' , 'data4', 'data5' ]
+
+    for i in data:
+        print (i)
+
+    print (' would you like to add')
+    a = input()
+
+    if a == ('yes'):
+        b = input()
+
+        data.append(b)
+        print (data) 
+
+the_list()
