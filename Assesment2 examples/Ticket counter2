@@ -1,0 +1,5 @@
+class Cheese:
+    id = 17
+    def __init__(self):
+        Cheese.id += 1
+        self.id = Cheese.id
