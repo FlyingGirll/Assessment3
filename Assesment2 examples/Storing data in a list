@@ -1,0 +1,5 @@
+num_lists = int(input("How many lists do you want? "))
+lists = []
+for p in range(num_lists):
+    lists.append(p)
+print(lists)
